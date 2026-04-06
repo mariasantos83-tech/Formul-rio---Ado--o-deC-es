@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Adoção</title>
+
+</head>
+
+<body>
+    
+<h2>Formulário de Adoção</h2>
+
+<form>
+
+<label for="nome"></label>
+<input type="text" id="nome" placeholder= "digite seu nome">
+<br>
+<label for="nome"></label>
+<input type="text" id="email" placeholder= "digite seu email">
+<br>
+<label for="moradia">Moradia</label>
+<select name="moradia" id="moradia">
+    <option value="">Selecione</option>
+    <option value="Casa">Casa</option>
+    <option value="apartamente">Apartamente</option>
+</select>
+<br>
+<label for="quintal">Possui Quintal?</label>
+<input type="radio" name="quintal" value="sim">Sim
+<input type="radio" name="quintal" value="nao">Não
+<br>
+<button type="submit">Enviar</button>
+</form>
+
+<div id="resultado"></div>
+<script src="scripts/script.js"></script>
+</body>
+
+</html>
