@@ -1,0 +1,12 @@
+.body {
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.header {
+    background-color: #F0F8FF: /* cor de fundo */
+    color: #f8fafc; /* cor do texto */
+    padding: 10px;
+    text-align: center;
+}
