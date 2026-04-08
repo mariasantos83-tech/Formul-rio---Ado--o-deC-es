@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #ddf073;
+    background-color: #daa7ee;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,17 +9,17 @@ body {
 }
 
 form {
-    background-color: #dde492;
+    background-color: #ee5fca;
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgb(245, 235, 145);
+    box-shadow: 0 4px 15px rgb(165, 73, 218);
     width: 100%;
     max-width: 450px;
 }
 
 h2 {
     text-align: center;
-    color: #e6d055;
+    color: #742692;
     margin-bottom: 25px;
 }
 
