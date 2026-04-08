@@ -1,71 +1,75 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de Adoção</title>
 
+    <link rel="stylesheet" href="styles/style.css">
+
 </head>
 
 <body>
-    
-<h2>Formulário de Adoção</h2>
 
-<form>
+    <h2>Formulário de Adoção</h2>
 
-<label for="nome"></label>
-<input type="text" id="nome" placeholder= "digite seu nome">
-<br>
-<label for="nome"></label>
-<input type="text" id="email" placeholder= "digite seu email">
-<br>
-<label for="telefone"></label>
-<input type="text" id="telefone" placeholder= "digite seu telefone">
-<br>
-<label for="CPF"></label>
-<input type="text" id="CPF" placeholder= "digite seu CPF">
-<br>
-<label for="idade"></label>
-<input type="text" id="idade" placeholder= "digite sua idade">
-<br>
-<label for="cidade"></label>
-<input type="text" id="cidade" placeholder= "digite sua cidade">
-<br>
-<label for="moradia">Moradia</label>
-<select name="moradia" id="moradia">
-    <option value="">Selecione</option>
-    <option value="Casa">Casa</option>
-    <option value="apartamento">Apartamento</option>
-</select>
-<br>
-<label for="quintal">Possui Quintal?</label>
-<input type="radio" name="quintal" value="sim">Sim
-<input type="radio" name="quintal" value="nao">Não
-<br>
-<label for="ja teve animal de estimação antes?">Já teve animal de estimação antes?</label>
-<select name="animal" id="animal">
-    <option value="">Selecione</option>
-    <option value="sim">Sim</option>
-    <option value="nao">Não</option>
-</select>
-<br>
-<label for="Quantas horas o animal ficará sozinho por dia">Quantas horas o animal ficará sozinho por dia?</label>
-<select name="horas_sozinho" id="horas_sozinho">
-    <option value="">Selecione</option>
-    <option value="1">1 hora</option>
-    <option value="2">2 horas</option>
-    <option value="3">3 horas</option>
-    <option value="4">4 horas</option>
-    <option value="5">5 horas</option>
-</select>
-<br>
-<label for="Motivo da Adoção"></label>
-<input type="text" id="Motivo da Adoção" placeholder= "digite o motivo da adoção">
-<br>
-<button type="submit">Enviar</button>
-</form>
+    <form>
 
-<div id="resultado"></div>
-<script src="scripts/script.js"></script>
+        <label for="nome"></label>
+        <input type="text" id="nome" placeholder="digite seu nome">
+        <br>
+        <label for="nome"></label>
+        <input type="text" id="email" placeholder="digite seu email">
+        <br>
+        <label for="telefone"></label>
+        <input type="text" id="telefone" placeholder="digite seu telefone">
+        <br>
+        <label for="CPF"></label>
+        <input type="text" id="CPF" placeholder="digite seu CPF">
+        <br>
+        <label for="idade"></label>
+        <input type="text" id="idade" placeholder="digite sua idade">
+        <br>
+        <label for="cidade"></label>
+        <input type="text" id="cidade" placeholder="digite sua cidade">
+        <br>
+        <label for="moradia">Moradia</label>
+        <select name="moradia" id="moradia">
+            <option value="">Selecione</option>
+            <option value="Casa">Casa</option>
+            <option value="apartamento">Apartamento</option>
+        </select>
+        <br>
+        <label for="quintal">Possui Quintal?</label>
+        <input type="radio" name="quintal" value="sim">Sim
+        <input type="radio" name="quintal" value="nao">Não
+        <br>
+        <label for="ja teve animal de estimação antes?">Já teve animal de estimação antes?</label>
+        <select name="animal" id="animal">
+            <option value="">Selecione</option>
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+        </select>
+        <br>
+        <label for="Quantas horas o animal ficará sozinho por dia">Quantas horas o animal ficará sozinho por
+            dia?</label>
+        <select name="horas_sozinho" id="horas_sozinho">
+            <option value="">Selecione</option>
+            <option value="1">1 hora</option>
+            <option value="2">2 horas</option>
+            <option value="3">3 horas</option>
+            <option value="4">4 horas</option>
+            <option value="5">5 horas</option>
+        </select>
+        <br>
+        <label for="Motivo da Adoção"></label>
+        <input type="text" id="Motivo da Adoção" placeholder="digite o motivo da adoção">
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div id="resultado"></div>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
